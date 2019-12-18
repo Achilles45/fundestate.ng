@@ -1,0 +1,22 @@
+.process__wrapper{
+    background: #241E65;
+    color: #fff;
+    padding: 5rem 0;
+    .intro{
+        p{
+            opacity: .8;
+            font-size: .8rem;
+        }
+    }
+    .process{
+        hr{
+            background: #f4f4f4;
+            opacity: .2;
+        }
+        p{
+            font-size: .81rem;
+            opacity: .8;
+            word-spacing: 1px;
+        }
+    }
+}

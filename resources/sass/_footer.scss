@@ -1,0 +1,38 @@
+footer{
+    padding: 2rem 0;
+    h6{
+        padding-top: 2rem;
+        font-weight: bold;
+        color: #545454;
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        font-size: .85rem;
+    }
+    p, a{
+        font-size: .8rem;
+        color: #545454;
+        opacity: .8;
+    }
+    form{
+        input[type=text]{
+            border-radius: 2px;
+            font-size: .8rem;
+            color: #545454;
+            box-shadow: none !important;
+        }
+        .subscribe__btn{
+            background: #241E65;
+            color: #fff;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: .7rem;
+            padding: .8rem 1.5rem;
+            border: none;
+        }
+        .small{
+            color: #545454;
+            opacity: .5;
+            font-size: .9rem;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.banner__wrapper{
+    height: 95vh;
+    background: #241E65;
+    padding: 10rem 0;
+    h1{
+        font-weight: bold;
+        font-size: 2.4rem;
+        line-height: 1.25;
+        padding-bottom: .5rem;
+        color: #fff;
+        padding-top: 1rem;
+        text-shadow: 0.03px 0.03px 0.05px rgba(0,0,0,.10);
+    }
+    p{
+        color:#fff;
+        opacity: .9;
+        font-size: .82rem;
+    }
+    .register__btn{
+        background: #f4f4f4;
+        padding: 1.3rem 4rem;
+        border-radius: 3px;
+        text-decoration: none;
+        color: #241E65;
+        font-weight: bold;
+        box-shadow: 0 7px 50px -10px rgba(0,0,0,.17);
+        transform: translate3d(0,0,0);
+    }
+    .arrow{
+        animation-name: animate__btn;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 1s;
+    }
+}
+
+//ANIMATIONS
+@keyframes animate__btn{
+    from{
+        transform: translateX(0);
+        opacity: .5;
+    }
+    to{
+        transform: translateX(40%);
+        opacity: 1;
+    }
+}

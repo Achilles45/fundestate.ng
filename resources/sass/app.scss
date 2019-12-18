@@ -6,3 +6,27 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+//Reset styles
+@import 'reset';
+
+//Navbar styles
+@import 'navbar';
+
+//Banner styles
+@import 'banner';
+
+//Features styles
+@import 'features';
+
+//Monitor styles
+@import 'monitor';
+
+//Testimonials styles
+@import 'processes';
+
+//Security styles
+@import 'security';
+
+//Footer styles
+@import 'footer';

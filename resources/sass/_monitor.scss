@@ -1,0 +1,28 @@
+.monitor__wrapper{
+    // background: #4300C2;
+    padding: 4rem 0;
+    position: relative;
+    .side__contents{
+        .side-img{
+            position: absolute;
+            max-width: 90px;
+            height: auto;
+            transform: rotate3d(180) !important;
+            right: 0;
+        }
+    }
+    .charge__contents{
+        position: relative;
+        h2{
+            font-weight: 800;
+            color: #241E65;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+        }
+        p{
+            color: #545454;
+            opacity: .9;
+            font-size: .8rem;
+        }
+    }
+}
