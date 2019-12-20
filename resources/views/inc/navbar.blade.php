@@ -7,7 +7,7 @@
             <ul class="d-flex justify-content-between align-content-center">
                 <li><a href="/" class="nav__links nav-link">Home</a>
                 <li><a href="/" class="nav__links nav-link">About Us</a>
-                <li><a href="/" class="nav__links nav-link">Blog</a>
+                <li><a href="/blogs" class="nav__links nav-link">Blog</a>
                 <li><a href="/" class="nav__links nav-link">Contact Us</a>
                 <li><a href="/" class="nav__links nav-link">Create a free account</a>
                 <li><a href="/" class="nav__links nav-link login">Login</a>

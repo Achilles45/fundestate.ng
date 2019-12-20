@@ -11368,6 +11368,7 @@ ul {
 body {
   font-family: "Rubik";
   overflow-x: hidden;
+  position: relative;
 }
 
 .navbar__wrapper {
@@ -11376,6 +11377,7 @@ body {
   position: fixed;
   background: #fff;
   z-index: 1000 !important;
+  top: 0;
 }
 
 .navbar__wrapper .nav-link {
@@ -11578,9 +11580,10 @@ body {
 }
 
 .process__wrapper .process p {
-  font-size: 0.81rem;
+  font-size: 0.8rem;
   opacity: 0.8;
   word-spacing: 1px;
+  color: #fff;
 }
 
 .security__wrapper {
@@ -11645,5 +11648,124 @@ footer form .small {
   color: #545454;
   opacity: 0.5;
   font-size: 0.9rem;
+}
+
+.blogs__wrapper {
+  background: url(/images/banner.jpg?d41d8cd98f00b204e9800998ecf8427e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 0px 1800px inset;
+}
+
+.blogs__wrapper h2 {
+  color: #fff;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+.house {
+  width: 100%;
+  max-height: 180px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #545454;
+  font-weight: bold;
+}
+
+P {
+  color: #545454;
+  font-size: 0.8rem !important;
+  opacity: 0.8;
+  padding-bottom: 0.5rem;
+}
+
+small {
+  font-weight: bold;
+  color: #545454;
+}
+
+.more__btn {
+  background: #241E65;
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none !important;
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+}
+
+.show__wrapper .house {
+  min-height: 400px;
+  width: 100%;
+  padding-top: 1rem !important;
+}
+
+.show__wrapper .back__btn {
+  background: #241E65;
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none !important;
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+}
+
+.show__wrapper .edit__btn {
+  background: green;
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none !important;
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+}
+
+.show__wrapper .delete__btn {
+  background: firebrick;
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none !important;
+  padding: 0.7rem 1.5rem;
+  border-radius: 3px;
+  border: none;
+}
+
+.form__section {
+  background: #fff;
+}
+
+.form__section .form__wrapper form input {
+  box-shadow: none !important;
+  height: 2.8rem;
+  border-radius: 0;
+  font-size: 0.8rem;
+  color: #545454;
+  opacity: 0.9;
+  outline: #545454;
+}
+
+.form__section .form__wrapper form textarea {
+  height: 9rem;
+  border-radius: 0;
+}
+
+.form__section .form__wrapper form label {
+  color: #545454;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.form__section .form__wrapper form .blog__btn {
+  background: #241E65;
+  color: #fff;
+  padding-top: 0.9rem;
+  padding-bottom: 1.2rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.8rem;
 }
 

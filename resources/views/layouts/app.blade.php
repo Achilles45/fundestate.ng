@@ -13,6 +13,8 @@
     <title>{{ config('app.name', 'Fundestate - Invest in real estate digitally') }}</title>
 </head>
 <body>
+    @include('inc.navbar')
     @yield('content')
+    @include('inc.footer')
 </body>
 </html>

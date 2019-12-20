@@ -1,0 +1,32 @@
+.show__wrapper{
+    .house{
+        min-height: 400px;
+        width: 100%;
+        padding-top: 1rem !important;
+    }
+    .back__btn{
+        background: #241E65;
+        color: #fff;
+        font-size: .8rem;
+        text-decoration: none !important;
+        padding: .7rem 1rem;
+        border-radius: 3px;
+    }
+    .edit__btn{
+        background: green;
+        color: #fff;
+        font-size: .8rem;
+        text-decoration: none !important;
+        padding: .7rem 1rem;
+        border-radius: 3px;
+    }
+    .delete__btn{
+        background: firebrick;
+        color: #fff;
+        font-size: .8rem;
+        text-decoration: none !important;
+        padding: .7rem 1.5rem;
+        border-radius: 3px;
+        border: none;
+    }
+}

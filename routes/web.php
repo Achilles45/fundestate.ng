@@ -18,3 +18,6 @@
 
 //Function to load pages
 Route::get('/', 'PagesController@index');
+
+//Routes for our blogs
+Route::resource('blogs', 'BlogsController');
